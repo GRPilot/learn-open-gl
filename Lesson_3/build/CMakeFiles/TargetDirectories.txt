@@ -1,3 +1,0 @@
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/build/CMakeFiles/rebuild_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/build/CMakeFiles/edit_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/build/CMakeFiles/Lesson3.dir

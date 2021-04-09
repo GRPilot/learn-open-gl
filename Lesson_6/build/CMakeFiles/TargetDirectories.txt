@@ -1,6 +1,0 @@
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_6_Textures/build/CMakeFiles/rebuild_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_6_Textures/build/CMakeFiles/edit_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_6_Textures/build/CMakeFiles/Lesson_6_Textures.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_6_Textures/build/dependencies/CMakeFiles/rebuild_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_6_Textures/build/dependencies/CMakeFiles/edit_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_6_Textures/build/dependencies/CMakeFiles/glad.dir

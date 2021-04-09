@@ -1,2 +1,0 @@
-/usr/bin/ar qc libvtx.a  CMakeFiles/vtx.dir/vertex.cpp.o
-/usr/bin/ranlib libvtx.a

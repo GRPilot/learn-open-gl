@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/Lesson3.dir/main.cpp.o CMakeFiles/Lesson3.dir/glad/glad.c.o  -o Lesson3  -lGL -lGLEW -lGLU -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -lXi 

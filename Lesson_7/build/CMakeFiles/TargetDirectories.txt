@@ -1,9 +1,0 @@
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/CMakeFiles/rebuild_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/CMakeFiles/edit_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/CMakeFiles/Lesson7.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/deps/dep_imgui/CMakeFiles/rebuild_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/deps/dep_imgui/CMakeFiles/edit_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/deps/dep_imgui/CMakeFiles/imgui.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/deps/dep_stb/CMakeFiles/rebuild_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/deps/dep_stb/CMakeFiles/edit_cache.dir
-/home/gollan/Programming/OpenGL/Ravesli/Lesson_7/build/deps/dep_stb/CMakeFiles/stbimg.dir

@@ -1,2 +1,0 @@
-/usr/bin/ar qc libwnd.a  CMakeFiles/wnd.dir/window.cpp.o
-/usr/bin/ranlib libwnd.a
