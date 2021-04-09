@@ -6,4 +6,5 @@
 .cache
 tags
 compile_commands.json
+build
 
