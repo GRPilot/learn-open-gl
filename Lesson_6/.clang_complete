@@ -1,0 +1,3 @@
+-I./dependencies
+-include deps.hpp
+-lGL -lglfw3 -lLGLW -lX11 -lXrender

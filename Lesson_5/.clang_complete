@@ -1,0 +1,2 @@
+-I/include
+-lGL -lGLW -lglfw3 -lXi

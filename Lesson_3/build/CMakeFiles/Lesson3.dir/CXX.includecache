@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/glad/glad.h
+khrplatform.h
+/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/glad/khrplatform.h
+
+/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/glad/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/main.cpp
+glad/glad.h
+/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/glad/glad.h
+GLFW/glfw3.h
+/home/gollan/Programming/OpenGL/Ravesli/Lesson_3/GLFW/glfw3.h
+iostream
+-
+

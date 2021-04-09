@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Lesson4.dir/main.cpp.o CMakeFiles/Lesson4.dir/glad/glad.c.o  -o Lesson4  -lGL -lGLEW -lGLU -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -lXi window/libwnd.a shader/libshdr.a vertex/libvtx.a 

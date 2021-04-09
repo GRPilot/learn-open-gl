@@ -1,0 +1,27 @@
+# ninja log v5
+2	885	1616931898327015264	CMakeFiles/Lesson_6_Textures.dir/core/texture/texturegen.cpp.o	2ac6b153d380f2c3
+1343	2659	1616918645559095123	CMakeFiles/Lesson_6_Textures.dir/core/mash/vertex.cpp.o	d4a2c8e7cd90217a
+1237	1361	1616932126234100037	Lesson_6_Textures	30bf56f61a27b2cf
+2	1237	1616932126110100590	CMakeFiles/Lesson_6_Textures.dir/main.cpp.o	71e31b6ee87e7ed
+2161	2232	1616918645135098392	dependencies/libglad.a	ab0382b566d7d50c
+1	863	1616930986024330257	CMakeFiles/Lesson_6_Textures.dir/core/shader/shader.cpp.o	268662eee6bb87fb
+1823	2161	1616918645059098978	dependencies/CMakeFiles/glad.dir/glad/glad.c.o	896134debfc84f66
+1428	2687	1616918645587094907	CMakeFiles/Lesson_6_Textures.dir/core/mash/mash.cpp.o	8ba5217686969095
+2	831	1616932125706102392	CMakeFiles/Lesson_6_Textures.dir/core/texture/texture.cpp.o	be38e0eb0bdcb59d
+2	1427	1616918644327104619	CMakeFiles/Lesson_6_Textures.dir/core/texture/stb_image.cpp.o	eceb8b235d612591
+1	1919	1616918644819100827	CMakeFiles/Lesson_6_Textures.dir/core/random/randomgenerator.cpp.o	30031a8b836ad15f
+1	1343	1616918644243105265	CMakeFiles/Lesson_6_Textures.dir/core/window/window.cpp.o	b8d7a2bbb1596140
+1	1160	1616932302681265941	CMakeFiles/Lesson_6_Textures.dir/main.cpp.o	71e31b6ee87e7ed
+1160	1272	1616932302797265366	Lesson_6_Textures	30bf56f61a27b2cf
+2	1165	1616932698059157553	CMakeFiles/Lesson_6_Textures.dir/main.cpp.o	71e31b6ee87e7ed
+1166	1282	1616932698179156878	Lesson_6_Textures	30bf56f61a27b2cf
+1	1162	1616932724055011135	CMakeFiles/Lesson_6_Textures.dir/main.cpp.o	71e31b6ee87e7ed
+1162	1277	1616932724171010480	Lesson_6_Textures	30bf56f61a27b2cf
+1	1174	1616944169764622339	CMakeFiles/Lesson_6_Textures.dir/main.cpp.o	71e31b6ee87e7ed
+1174	1287	1616944169880621523	Lesson_6_Textures	30bf56f61a27b2cf
+1	1154	1616944203940381925	CMakeFiles/Lesson_6_Textures.dir/main.cpp.o	71e31b6ee87e7ed
+1154	1267	1616944204056381108	Lesson_6_Textures	30bf56f61a27b2cf
+2	1186	1616944497870304096	CMakeFiles/Lesson_6_Textures.dir/main.cpp.o	71e31b6ee87e7ed
+1186	1301	1616944497990303244	Lesson_6_Textures	30bf56f61a27b2cf
+2	1170	1616944541133997055	CMakeFiles/Lesson_6_Textures.dir/main.cpp.o	71e31b6ee87e7ed
+1170	1284	1616944541249996231	Lesson_6_Textures	30bf56f61a27b2cf
