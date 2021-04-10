@@ -18,11 +18,13 @@ int main() {
         return 1;
     }
 
-    // Window window({800, 600}, "OpenGL + ImGui | Ravesli lesson 7");
-    Window window(glfwGetPrimaryMonitor(), "OpenGL + ImGui | Ravesli lesson 7");
+    // Window window({800, 600}, "OpenGL + ImGui | Ravesli lesson 7"); // windowed screen
+    Window window(glfwGetPrimaryMonitor(), "OpenGL + ImGui | Ravesli lesson 7"); // fullscreen
     if(!window.isAvtive()) {
         return 2;
     }
+    const float scaleCoef = window.height() / static_cast<float>(window.width());
+    LogI("[main] scaleCoef coef: %.3f", scaleCoef);
 
     if(GLenum rc = glewInit(); GL_NO_ERROR != rc) {
         LogE("[GLEW] Cannot initialize GLEW: %u", rc);
@@ -51,8 +53,11 @@ int main() {
     };
 
     glm::vec4 bgcolor{.3f, .2f, .4f, 1.0f};
-    float mix_value = 0.0f;
+    float mix_value = 0.8f;
     int texId = 0;
+    float angle = 0.0f;
+    float xAngle = 0.0f;
+    float yAngle = 0.0f;
 
     while(window.isAvtive()) {
         window.poll_events();
@@ -63,6 +68,12 @@ int main() {
         ImGui::NewFrame(); 
 
         shader->use();
+        glm::mat4 transformation = glm::mat4(1.0f);
+        transformation = glm::rotate(transformation, angle, glm::vec3{0, 0, 1});
+        transformation = glm::rotate(transformation, xAngle, glm::vec3{1, 0, 0});
+        transformation = glm::rotate(transformation, yAngle, glm::vec3{0, 1, 0});
+        transformation = glm::scale(transformation, glm::vec3{scaleCoef, 1, 0});
+        shader->set("transform", transformation);
         shader->set("mix_value", mix_value);
         shader->set("texId", texId);
         shader->unuse();
@@ -76,10 +87,12 @@ int main() {
         ImGui::Begin("Settings");
             ImGui::TextWrapped("Shader settings:");
             ImGui::SliderFloat("Texture mix value", &mix_value, 0.0f, 1.0f);
+            ImGui::SliderAngle("Rotation", &angle);
+            ImGui::SliderAngle("X", &xAngle);
+            ImGui::SliderAngle("Y", &yAngle);
             ImGui::Separator();
             ImGui::TextWrapped("Global settings:");
             ImGui::ColorEdit3("Clear color", &bgcolor[0]);
-
             ImGui::Separator();
             ImGui::TextWrapped("Information:");
             ImGui::TextWrapped("Application average %.3f ms/frame (%.1f FPS)",

@@ -21,6 +21,9 @@ public:
     bool isPressed(unsigned key);
     bool isHold(unsigned key);
 
+    size_t width() const;
+    size_t height() const;
+
     GLFWwindow *handler();
 private:
     GLFWwindow *wnd;

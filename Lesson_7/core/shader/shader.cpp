@@ -90,6 +90,10 @@ void Shader::set(const std::string &property, bool value) {
     glUniform1i(this->location(property), static_cast<int>(value));
 }
 
+void Shader::set(const std::string &property, const glm::mat4 &value) {
+    glUniformMatrix4fv(this->location(property), 1, GL_FALSE, glm::value_ptr(value));
+}
+
 void Shader::use() {
     glUseProgram(prog);
 }
