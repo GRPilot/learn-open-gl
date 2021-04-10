@@ -20,6 +20,7 @@ public:
     void set(const std::string &property, float value);
     void set(const std::string &property, int value);
     void set(const std::string &property, bool value);
+    void set(const std::string &property, const glm::mat4 &value);
 
     void use();
     void unuse();
