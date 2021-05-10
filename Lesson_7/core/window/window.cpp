@@ -101,6 +101,20 @@ bool Window::isHold(unsigned key) {
     return GLFW_PRESS == glfwGetKey(wnd, key);
 }
 
+size_t Window::width() const {
+    int width = 0;
+    glfwGetWindowSize(wnd, &width, nullptr);
+    if(width < 0) width = 0;
+    return static_cast<size_t>(width);
+}
+
+size_t Window::height() const {
+    int height = 0;
+    glfwGetWindowSize(wnd, nullptr, &height);
+    if(height < 0) height = 0;
+    return static_cast<size_t>(height);
+}
+
 GLFWwindow* Window::handler() {
     return wnd;
 }
